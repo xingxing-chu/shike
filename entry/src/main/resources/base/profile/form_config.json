@@ -1,0 +1,20 @@
+{
+  "forms": [
+    {
+      "name": "RecordWidget",
+      "displayName": "$string:widget_display_name",
+      "description": "$string:widget_desc",
+      "src": "./ets/widget/pages/RecordWidgetCard.ets",
+      "uiSyntax": "arkts",
+      "isDefault": true,
+      "updateEnabled": false,
+      "scheduledUpdateTime": "10:30",
+      "updateDuration": 1,
+      "defaultDimension": "1*2",
+      "supportDimensions": [
+        "1*2",
+        "1*1"
+      ]
+    }
+  ]
+}

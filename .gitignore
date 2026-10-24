@@ -1,0 +1,18 @@
+# 忽略鸿蒙构建目录
+build/
+entry/build/
+.hvigor/
+oh_modules/
+node_modules/
+
+# 忽略本地配置和签名（极度重要！）
+local.properties
+*.p12
+*.cer
+*.p7b
+*.key
+*.csr
+
+# 忽略系统文件和IDE配置
+.idea/
+.DS_Store
